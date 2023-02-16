@@ -1,0 +1,13 @@
+.app-container {
+  padding: 26px 12px;
+}
+
+.home-card {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin-bottom: 24px;
+
+  &>.ant-card-body {
+    padding: 24px;
+  }
+}
