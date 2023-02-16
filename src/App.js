@@ -2,7 +2,7 @@ import 'antd/dist/reset.css';
 import './app.scss';
 
 import { Typography } from 'antd';
-import Home from './components/home/home';
+import Home from './components/Home/home';
 
 const { Title } = Typography;
 

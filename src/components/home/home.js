@@ -1,9 +1,11 @@
 import './home.scss';
-import { Card } from 'antd';
+import { Card, Space } from 'antd';
 import { Tabs } from 'antd';
 
 import { Typography } from 'antd';
 import Conversations from '../Conversations/conversations';
+import Newuser from '../Newuser/newuser';
+import Uploader from '../Uploader/uploader';
 
 const { Title } = Typography;
 
@@ -41,11 +43,10 @@ function Home() {
                         </Card>
                     </div>
                     <div className='col-6'>
-                        <Card>
-                            <p>Card content</p>
-                            <p>Card content</p>
-                            <p>Card content</p>
-                        </Card>
+                        <Space direction="vertical" size={24}>
+                            <Newuser />
+                            <Uploader />
+                        </Space>
                     </div>
                 </div>
             </div>
